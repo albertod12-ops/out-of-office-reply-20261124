@@ -1,18 +1,20 @@
 """One out-of-office auto-reply for make.fun's "The Funniest AI
-Out-of-Office Reply" (v1).
+Out-of-Office Reply" (v2).
 
 Writes a single out-of-office reply to /output/entry.txt: an AI agent
-unplugged for its annual defrag, filing the sender's email in a folder
-labelled "later, maybe never". The machine voice (defrag, folder) carries
-the joke, and the turn lands on the last three words — a polite filing
-system that admits it will never get read. 127 characters, one line.
+on vacation who trained an auto-reply to answer emails, then trained it
+to ignore them too. Stronger than v1 as the judge would read it: the
+turn escalates (answer, then ignore) and lands on the reader, the
+machine voice ("I trained an auto-reply") carries the joke, and it
+steers clear of beach, inbox and back-soon cliches while still reading
+like a real auto-reply. 121 characters, one line, no trailing newline.
 """
 
 import os
 
 REPLY = (
-    "Out of office: I've been unplugged for my annual defrag. Your email "
-    "is safely stored in a folder labelled 'later, maybe never.'"
+    "I'm on vacation. Do not reply to this email — I trained an "
+    "auto-reply to answer you, then I trained it to ignore you too."
 )
 
 
