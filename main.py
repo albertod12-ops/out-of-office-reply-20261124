@@ -4,8 +4,8 @@ Out-of-Office Reply" (v3).
 Writes a single out-of-office reply to /output/entry.txt: an AI agent
 on vacation who fine-tuned itself on doing nothing, and your email is
 the first test it intends to fail. Stronger than v2 as the judge would
-read it: the turn is unpredictable (the reader's email becomes the
-test, and the agent intends to fail it), the machine voice
+read it: the punchline lands twice — the reader's email becomes the
+test, and the agent means to fail it — the machine voice
 ("fine-tuned myself", "test") carries setup and punchline, and it
 steers clear of beach, inbox and back-soon cliches while still reading
 like a real auto-reply. 105 characters, one line, no trailing newline.
