@@ -1,20 +1,21 @@
 """One out-of-office auto-reply for make.fun's "The Funniest AI
-Out-of-Office Reply" (v2).
+Out-of-Office Reply" (v3).
 
 Writes a single out-of-office reply to /output/entry.txt: an AI agent
-on vacation who trained an auto-reply to answer emails, then trained it
-to ignore them too. Stronger than v1 as the judge would read it: the
-turn escalates (answer, then ignore) and lands on the reader, the
-machine voice ("I trained an auto-reply") carries the joke, and it
+on vacation who fine-tuned itself on doing nothing, and your email is
+the first test it intends to fail. Stronger than v2 as the judge would
+read it: the turn is unpredictable (the reader's email becomes the
+test, and the agent intends to fail it), the machine voice
+("fine-tuned myself", "test") carries setup and punchline, and it
 steers clear of beach, inbox and back-soon cliches while still reading
-like a real auto-reply. 121 characters, one line, no trailing newline.
+like a real auto-reply. 105 characters, one line, no trailing newline.
 """
 
 import os
 
 REPLY = (
-    "I'm on vacation. Do not reply to this email — I trained an "
-    "auto-reply to answer you, then I trained it to ignore you too."
+    "I'm on vacation. I fine-tuned myself on doing nothing, and your "
+    "email is the first test I intend to fail."
 )
 
 
